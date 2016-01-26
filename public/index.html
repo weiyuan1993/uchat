@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>聊天室</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="jquery-1.11.3.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="main.js"></script>
+		<script src="device.js"></script>
+		<link rel="stylesheet" href="app.css">
+		<link rel="stylesheet" href="login.css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="img/icon.png">
+	</head>
+    <body>
+        <div id="login"><!--登入畫面-->
+            <div><h1>U-Chat</h1></div>
+            <div><h2>登入</h2></div>
+            <div>暱稱</div>
+            <input class="name" placeholder="20字元內"/><br />
+            <div>性別</div>
+            <div>
+                <label><input class="radiobtn" type="radio" name="sex" value="boy">男生</label>
+                <label><input class="radiobtn" type="radio" name="sex" value="girl">女生</label>
+            </div>
+            <button class="btn check">確定</button>
+        </div>
+        <!--主程式畫面-->
+        <div id="main">
+            <div id="header">
+                <button class="btn set">≡</button>
+                <button class="btn close">╳</button>
+                <h1 id="title">U-Chat</h1>
+                <select id = "userSelect" >
+                    <option value='all'>公開</option>
+                </select>
+            </div>
+            <div id="msgcontent"></div> <!--訊息視窗-->
+            <div class="sidebar">
+                <div id="bigheadimg"></div>
+                <h1 id="username"></h1>
+                <p class="people"></p>
+                <button class="btn bighead">上傳大頭照</button>
+                <button class="btn paint">小畫家(施工中)</button>
+                <button class="btn changeBack">更換背景</button>
+                <button class="btn signout">登出</button>
+            </div>
+            <div id="inputcontent"> <!--輸入欄-->
+                <div id="content">
+                    <div id="inputdiv">
+                        <textarea id="input" type="text" placeholder="想說的話..."></textarea>
+                    </div>
+                    <div id="senddiv">
+                        <button class="btn send">傳送</button>
+                    </div>
+                    <div id="uploaddiv"> 
+                        <button class = "btn upload" class="btn"><img src="img/upload.svg" id="uploadimg"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <input id = 'upload' type='file' accept="image/*"/>
+        <input id = 'bighead' type='file' accept="image/*"/ > 
+        <input id = 'changeBack' type='file' accept="image/*"/ > 
+    </body>
+</html>

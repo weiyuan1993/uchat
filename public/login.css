@@ -1,0 +1,26 @@
+#login{
+	margin :0px auto;
+	background:lightgray;
+	width:100%;
+	height:50%;
+	text-align: center;
+}
+.name{
+	font-size: 30px;
+	text-align:left;
+	border-radius: 4px;
+	outline-style: none;
+	font-weight: bold;
+	border:0;
+	width:75%;
+}
+.radiobtn{
+	background-color:rgba(238,68,95,1);
+}
+h2{
+	margin:0;
+}
+
+.check:hover{
+	background-color:rgba(238,68,95,1);
+}

@@ -1,0 +1,312 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  
+}
+body{
+  margin:0;
+  background-image: url("/img/back.jpg");
+  background-size:cover;
+  height:100%;
+  
+}
+h1{
+  margin:0;
+}
+
+#main{
+  margin: 0px auto;
+  width:auto;
+  height:auto;
+  overflow: hidden;
+}
+
+#header{  
+  width:100%;
+  height:50px;
+  background-color:rgb(0,162,232);
+
+}
+#title{
+  display: inline;
+  color:white;
+  position: relative;
+  top:5px;
+}
+#userSelect{
+  display: inline;
+  border-radius: 0;
+  border:0;
+  background: transparent;
+  color:white;
+  padding : 5px;
+  font-size : 16px;
+  height:50px;
+  outline: none;
+  width:auto;
+  float:right;
+
+  
+ }
+#userSelect:active{
+  background: #117bff;
+ }
+
+
+#msgcontent{
+  width:100%;
+  height:446px;
+  overflow-x:hidden;
+  overflow-y:auto;
+  font-size:20px;
+  word-wrap: break-word; 
+  word-break:normal; 
+  background-color:#faf0e6;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  -moz-background-size: cover;
+}
+.mySend{
+  clear:both;
+  float:right;
+}
+
+.myDialogue {
+  margin:10px;
+  padding:5px;
+  position:relative;
+  max-width:150px;
+  height:auto;
+  background:#F8C301;
+  border-radius:5px; 
+}
+
+.myDialogue .myArrow {
+  position:absolute;
+  top:5px;
+  right:-16px; 
+  width:0;
+  height:0;
+  font-size:12px;
+  border:solid 8px;
+  border-color:transparent transparent transparent #F8C301;
+}
+.otherSend{
+  float:left;
+}
+.otherDialogue {
+  margin:10px;
+  padding:5px;
+  position:relative;
+  left:10px;
+  max-width:150px;
+  height:auto;
+  background:#04d5d5;
+  border-radius:5px; 
+}
+
+.otherDialogue .otherArrow {
+  position:absolute;
+  top:5px;
+  left:-16px; 
+  width:0;
+  height:0;
+  font-size:20px;
+  border:solid 8px;
+  border-color: transparent #04d5d5 transparent transparent ;
+}
+.sendTime{
+  font-size: 16px;
+  text-align: right;
+}
+.othersendTime{
+  font-size: 16px;
+  text-align: right;
+}
+p{
+  margin:0;
+  color:black;
+}
+.loginmsg{
+  clear:both;
+}
+li{
+  list-style-type:none;
+  font-weight:bold;
+}
+
+
+#inputcontent{
+  width:100%;
+  height:40px;
+  background-color:#fff;
+}
+#content{
+  text-align: center;
+  width:100%;
+  height:auto;
+}
+#left,#center,#right{
+  display:inline-block;
+  height:40px;
+}
+#inputdiv{
+  width:63%;
+  float:left;
+}
+#senddiv{
+  width:20%;
+  float:left;
+  background-color: rgb(0,162,232);
+}
+#uploaddiv{
+  width:17%;
+  float:left;
+  height:40px;
+}
+
+#input{
+  width:100%;
+  height:35px;
+  font-weight: bold;
+  outline:none;
+  resize: none;
+  border:0;
+  font-size: 20px;
+  overflow-y: auto;
+}
+.sidebar{
+  position:absolute;
+  top:50px;
+  left:-100%;
+  width:320px;
+  height:auto;
+  background-color:#DDDDDD;
+  text-align: center;
+}
+.people{
+  color:black;
+  font-size:16px;
+  
+}
+.btn{
+  border:0;
+  border-radius: 0;
+  background-color: rgb(0,162,232);
+  color:white;
+  font-size:16px;
+  font-weight: bold;
+  padding:10px;
+  height:40px;
+  width:60px;
+  outline: none;
+}
+
+.btn:active{
+  background-color:rgba(238,68,95,1);
+}
+
+.btn.send{
+  width:100%;
+  background-color: transparent;
+}
+
+.btn.set{
+  background: transparent;
+  height:50px;
+  font-size: 40px;
+  float:left;
+  padding:0 0 50px 0;
+}
+.btn.set:active{
+  background-color:rgba(238,68,95,1);
+}
+.btn.close{
+  background: transparent;
+  float:left;
+  display:none;
+  height:50px;
+}
+.btn.close:active{
+  background-color:rgba(238,68,95,1);
+}
+.btn.signout{
+  width:100%;
+  background-color:rgba(238,68,95,1);
+}
+.btn.signout:active{
+  background-color:rgb(0,162,232);
+}
+.btn.signout,.btn.bighead,.btn.paint,.btn.changeBack{
+  width:100%;
+  border:1px solid lightgray;
+}
+#username{
+  text-align: center;
+}
+#bigheadimg{
+  height:215px;
+  background-image: url("/img/icon.png") ;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mybighead{
+  width:215px;
+  height:215px;
+  border-radius: 99em;
+
+}
+.otherBighead{
+  width:70px;
+  height:70px;
+  border-radius: 99em;
+  float:left;
+  clear:both;
+}
+
+.btn.upload{
+  width:100%;
+  border:0;
+  outline:none;
+  background-color: #a9a9a9;
+}
+.btn.upload:active{
+    background-color:rgba(238,68,95,1);
+}
+#uploadimg{
+  width:35px;
+  position: relative;
+  bottom:10px;
+}
+
+#upload,#bighead,#changeBack{
+  display: none;
+}
+
+
+.sendImg{
+  clear:both;
+  float:right;
+}
+
+
+.myImg,.otherImg{
+  border-radius: 8px;
+}
+.myImg{
+  float:right;
+  clear:both;
+  max-width:25%;
+  height:auto;
+}
+.otherImg{
+  float:left;
+  clear:both;
+  max-width:100%;
+  height:auto;
+}
+
+
+
+
