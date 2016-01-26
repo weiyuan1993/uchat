@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 
 var server = http.createServer(app);
 io = io.listen(server);
-server.listen(4000);
+server.listen(process.env.PORT || 4000);
 
 var people=0;
 
