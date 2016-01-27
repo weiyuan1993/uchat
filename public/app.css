@@ -44,7 +44,7 @@ h1{
   outline: none;
   width:auto;
   float:right;
-
+  font-weight: bolder;
   
  }
 #userSelect:active{
@@ -270,6 +270,7 @@ li{
   border:0;
   outline:none;
   background-color: #a9a9a9;
+  border-radius: 0;
 }
 .btn.upload:active{
     background-color:rgba(238,68,95,1);
@@ -278,6 +279,7 @@ li{
   width:35px;
   position: relative;
   bottom:10px;
+
 }
 
 #upload,#bighead,#changeBack{
@@ -297,14 +299,14 @@ li{
 .myImg{
   float:right;
   clear:both;
-  max-width:25%;
+  max-width:50%;
   height:auto;
 }
 .otherImg{
   float:left;
   clear:both;
-  max-width:100%;
   height:auto;
+  max-width:50%;
 }
 
 

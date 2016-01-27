@@ -28,7 +28,7 @@ $(function(){
 		}
 		else{
 			
-			$('.otherImg').css('max-width','50%');
+			$('.otherImg').css('max-width','30%');
 			$('.myImg').css('max-width','30%');
 		}
 })

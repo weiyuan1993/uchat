@@ -34,7 +34,7 @@ $(function(){
 			sendMessage();
 		}
 	});
-	//設定鍵
+	//sidebar鍵
 	$('.btn.set').click(function(){
 		$(".sidebar").animate({ left:'0px' }, 500 ,'swing');
 		$('.btn.set').hide();
