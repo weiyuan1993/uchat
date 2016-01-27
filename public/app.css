@@ -16,7 +16,7 @@ h1{
 #main{
   margin: 0px auto;
   width:auto;
-  height:auto;
+  height:100%;
   overflow: hidden;
 }
 
