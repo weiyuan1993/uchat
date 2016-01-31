@@ -10,7 +10,6 @@ U-Chat是我WebApp實作課程的FinalProject，一套基於Node.js開發而成�
 
 ###網頁版連線網址:
 - [U-chat](http://u-chat-weiyuan.herokuapp.com/)
-目前還沒寫響應式網頁，所以在有些手機上畫面並沒有很合適
 
 ###Feature:
 
@@ -24,7 +23,8 @@ U-Chat是我WebApp實作課程的FinalProject，一套基於Node.js開發而成�
 * 純手工CSS設計(花很多時間的部分，很喜歡自己搞UI設計，但弄得好累阿，是該學習Bootstrap了)
 * 通知功能(限Firefox OS & Firefox Browser)
 * 斷線後自動重連
-
+* RWD響應式網站
+* 
 ###未來預計新增的功能:
 
 * 音效
