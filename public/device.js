@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 	var isMobile = {
 			Android: function() {
 				return navigator.userAgent.match(/Android/i);
@@ -20,15 +20,17 @@ $(function(){
 			}
 		};
 		if(isMobile.any()){
-			$('#inputdiv').css('width','60%');
-			$('#senddiv').css('width','20%');
-			$('#uploaddiv').css('width','20%');
-			$('#login').css('width','100%');
+			///$('#inputdiv').css('width','60%');
+			//$('#senddiv').css('width','20%');
+			//$('#uploaddiv').css('width','20%');
+			//$('#login').css('width','100%');
+			$('.otherImg').css('width','100%');
+			$('.myImg').css('width','100%');
 
 		}
 		else{
 			
-			$('.otherImg').css('max-width','30%');
-			$('.myImg').css('max-width','30%');
+			//$('.otherImg').css('max-width','30%');
+			//$('.myImg').css('max-width','30%');
 		}
-})
+});

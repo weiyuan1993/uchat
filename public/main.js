@@ -42,7 +42,7 @@ $(function(){
 	});
 	//sidebar 關閉鍵
 	$('.btn.close').click(function(){
-		$(".sidebar").animate({ left:'-320px' }, 500 ,'swing');
+		$(".sidebar").animate({ left:'-100%' }, 500 ,'swing');
 		$('.btn.close').hide();
 		$('.btn.set').show();
 	});
